@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
-import { SiFacebook, SiInstagram } from "react-icons/si";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { GrClose } from "react-icons/gr";
 import { MenuItems } from './MenuItem';
@@ -26,6 +25,7 @@ const Navbar = () => {
         }
     }
 
+
     useEffect(() => {
         window.addEventListener('scroll', changeBackground)
     }, [])
@@ -39,7 +39,7 @@ const Navbar = () => {
                     </div>
                     <div className='nav-menu-icon' onClick={handleClick}>
                         {
-                            click ? <i><GrClose /></i> : <i><GiHamburgerMenu /></i>
+                            click ? <i><GrClose/></i> : <i><GiHamburgerMenu /></i>
                         }
                     </div>
                     <div className='nav-list'>
@@ -57,14 +57,6 @@ const Navbar = () => {
                             }
                         </ul>
                     </div>
-                    <div className='nav-media-icons'>
-                        <i>
-                            <SiFacebook />
-                        </i>
-                        <i>
-                            <SiInstagram />
-                        </i>
-                    </div>
                 </nav>
             </Container>
         </>
@@ -76,24 +68,19 @@ const Container = styled.div`
     top: 0;
     
     .navbar {
-        background: #12c2e9;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         height: 80px;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .navbar.active {
-        background: #12c2e9;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-color: white;
     }
 
     .nav-title {
-        color: black;
+        color: #005a84;
         margin-left: 20px;
         cursor: pointer;
         text-decoration: none;
@@ -113,28 +100,34 @@ const Container = styled.div`
     .nav-menu {
         display: grid;
         grid-template-columns: repeat(4, auto);
-        grid-gap: 20px;
+        grid-gap: 50px;
         list-style: none;
         text-align: center;
-        width: 60vw;
+        color: #005a84;
+        width: 80vw;
         justify-content: end;
         margin-right: 2rem;
         font-family: "Montserrat-Bold";
     }
 
     .nav-link {
-        color: black;
         display: flex;
         align-items: center;
-        text-decoration: none;
-        padding: 0.5rem 1rem;
         height: 100%;
+        position: relative;
     }
 
     .nav-link:hover {
-        background-color: white;
-        border-radius: 4px;
-        transition: all 0.2s ease-out;
+        color: #d25a9f;
+    }
+
+    .nav-link:hover::after {
+        content: "";
+        width: 100%;
+        border-bottom: 2px solid #333;
+        border-color: #d25a9f;
+        position: absolute;
+        bottom: 0;
     }
 
     .nav-menu-icon {
@@ -163,7 +156,7 @@ const Container = styled.div`
             width: 100%;
             height: 30vh;
             position: absolute;
-            top: 80px;
+            top: 150px;
             left: -100%;
             opacity: 1;
             transition: all 0.5s ease;
@@ -171,9 +164,6 @@ const Container = styled.div`
 
         .nav-menu.active {
             left: 0;
-            background: #12c2e9;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
             opacity: 1;
             transition: all 0.5s ease;
             z-index: 1;
@@ -211,6 +201,7 @@ const Container = styled.div`
             transform: translate(-100%, 60%);
             font-size: 1.8rem;
             cursor: pointer;
+            color: #005a84;
         }
 
         .nav-media-icons {
