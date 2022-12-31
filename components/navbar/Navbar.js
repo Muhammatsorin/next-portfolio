@@ -145,7 +145,7 @@ const Container = styled.div`
         }
     }
 
-    @media (max-width: 960px) {
+    @media (max-width: 900px) {
         .navbar {
             position: relative;
         }
@@ -208,6 +208,7 @@ const Container = styled.div`
             display: none;
         }
     }
+
 `
 
 export default Navbar
