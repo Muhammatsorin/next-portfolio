@@ -2,9 +2,7 @@ import React from 'react';
 import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
-import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
-import Paper from '@mui/material/Paper';
 import Styled from 'styled-components'
 import Img from 'next/image'
 import Divider from '@mui/material/Divider';
@@ -250,7 +248,7 @@ const TitleWrap = Styled.div`
         .img {
             Img {
                 width: 500px;
-                height: 400px;
+                height: 450px;
             }
         }
 
