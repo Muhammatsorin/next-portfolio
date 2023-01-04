@@ -11,13 +11,13 @@ export const MenuItems = [
     },
     {
         className: "nav-link",
-        title: "EXPERIENCE",
-        url: "/experience"
+        title: "SKILLS",
+        url: "/skills"
     },
     {
         className: "nav-link",
-        title: "SKILLS",
-        url: "/skills"
+        title: "EXPERIENCE",
+        url: "/experience"
     },
     {
         className: "nav-link",

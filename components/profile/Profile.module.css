@@ -1,4 +1,13 @@
-.row1{
+.title {
+    margin: 0;
+    padding-top: 20px;
+    font-family: 'Montserrat-bold';
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 30px;
+}
+
+.container {
     margin-top: 30px;
 }
 
@@ -10,14 +19,14 @@
 
 .item1::before {
     content: '';
-    height: 5px;
+    height: 3px;
     background-color: silver;
     flex-grow: 1;
 }
 
 .item1::after {
     content: '';
-    height: 5px;
+    height: 3px;
     background-color: silver;
     flex-grow: 1;
 }
@@ -38,11 +47,76 @@
     align-items: center;
 }
 
+.details {
+    display: flex;
+    font-size: 15px; 
+}
+
+.pt {
+    font-weight: 900;
+}
+
+.pd {
+    margin-left: 10px;
+}
+
+.item3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .btn {
     background-color: #d25a9f;
+    margin-top: 20px;
 }
 
 .btn:hover {
     background-color: #005a84;
     color: white;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.university {
+    display: flex;
+    align-items: center;
+}
+
+.university p {
+    margin: 0;
+    padding-left: 20px;
+    font-weight: 900;
+}
+
+.university h3 {
+    margin: 0;
+}
+
+.major p {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1200px) {
+    .education {
+        font-size: 12px;
+    }
+
+    .university {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .major {
+        text-align: center;
+        margin-bottom: 10px;
+    }
 }
