@@ -1,0 +1,25 @@
+.container {
+    font-family: 'Montserrat';
+}
+
+.title {
+    margin: 0;
+    padding-top: 20px;
+    font-family: 'Montserrat-bold';
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 30px;
+}
+
+.item_wrap {
+    width: 100%;
+    display: flex;
+}
+
+.item_wrap .item_icon {
+    color: #d25a9f;
+}
+
+.item_wrap .item_des .nature_of_work .p1 {
+    color: #d25a9f;
+}

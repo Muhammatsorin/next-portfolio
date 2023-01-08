@@ -3,6 +3,7 @@ import Navbar from '../components/navbar/Navbar'
 import Title from '../components/title/Title'
 import Profile from '../components/profile/Profile'
 import Skill from '../components/skill/Skill'
+import Exp from '../components/experience/Exp'
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Title />
       <Profile />
       <Skill />
+      <Exp />
     </div>
   )
 }
