@@ -1,0 +1,42 @@
+.container {
+    font-family: 'Montserrat';
+    margin-bottom: 50px;
+}
+
+.title {
+    margin: 0;
+    padding-top: 20px;
+    font-family: 'Montserrat-bold';
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 30px;
+}
+
+.item_wrap {
+    text-align: center;
+}
+
+.item_form {
+    border: none;
+    border-radius: 'none';
+    box-shadow: none;
+}
+
+.btn_wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btn {
+    width: 20vw;
+    background-color: #d25a9f;
+    font-family: 'Montserrat';
+}
+
+@media (max-width: 900px) {
+    .btn {
+        width: 50vw;
+    }
+}
+

@@ -4,6 +4,7 @@ import Title from '../components/title/Title'
 import Profile from '../components/profile/Profile'
 import Skill from '../components/skill/Skill'
 import Exp from '../components/experience/Exp'
+import Contact from '../components/contact/Contact'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Profile />
       <Skill />
       <Exp />
+      <Contact />
     </div>
   )
 }
