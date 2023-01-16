@@ -9,7 +9,7 @@ import Container from '@mui/material/Container';
 import ExplicitIcon from '@mui/icons-material/Explicit';
 import Divider from '@mui/material/Divider';
 
-const Exp = () => {
+const Exp = (props) => {
 
     const Item = styled(Paper)(({ theme }) => ({
         backgroundColor: '#F5F5F5',
@@ -24,7 +24,7 @@ const Exp = () => {
             <Exp_wrapper>
                 <CssBaseline />
                 <Container maxWidth="lg" className={styles.container}>
-                    <h1 className={styles.title}>Experience</h1>
+                    <h1 className={styles.title} id={props.id}>Experience</h1>
                     <Box sx={{ width: '100%' }}>
                         <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} className={styles.grid_container}>
                             <Grid item xs={12}>

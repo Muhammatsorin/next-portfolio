@@ -9,7 +9,7 @@ import styles from './Profile.module.css'
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 
-const Profile = () => {
+const Profile = (props) => {
 
     const Item = styled(Paper)(({ theme }) => ({
         backgroundColor: '#F5F5F5',
@@ -27,7 +27,7 @@ const Profile = () => {
                 <CssBaseline />
                 <Container maxWidth="lg" className={styles.container}>
                     <Box sx={{ width: '100%' }} />
-                    <h1 className={styles.title}>profile</h1>
+                    <h1 className={styles.title} id={props.id}>profile</h1>
                     <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} className={styles.row1}>
                         <Grid item xs={12} md={6} className={styles.grid1}>
                             <Item className={styles.item1}>

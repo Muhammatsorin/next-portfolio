@@ -8,11 +8,11 @@ import Img from 'next/image'
 import Divider from '@mui/material/Divider';
 import { GrInstagram, GrFacebook } from "react-icons/gr";
 
-const Title = () => {
+const Title = (props) => {
 
     return (
         <>
-            <TitleWrap>
+            <TitleWrap id={props.id}>
                 <CssBaseline />
                 <Container maxWidth="lg">
                     <Box sx={{ width: '100%' }}>

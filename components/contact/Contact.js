@@ -13,7 +13,7 @@ import TextField from '@mui/material/TextField';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 
-const Contact = () => {
+const Contact = (props) => {
 
     const handleChange = (e) => {
         console.log(e.target.value)
@@ -31,7 +31,7 @@ const Contact = () => {
         <>
             <CssBaseline />
             <Container maxWidth="lg" className={styles.container}>
-                <h1 className={styles.title}>Contact Me</h1>
+                <h1 className={styles.title} id={props.id}>Contact Me</h1>
                 <Box sx={{ width: '100%' }}>
                     <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
                         <Grid item xs={12} md={6} sx={{ marginTop: '20px' }}>

@@ -23,7 +23,7 @@ const labels = {
     5: 'Excellent+',
 };
 
-const Skill = () => {
+const Skill = (props) => {
 
     const jsValue = 3.5;
     const HTMLValue = 4;
@@ -41,7 +41,7 @@ const Skill = () => {
         <>
             <Container maxWidth="lg" className={styles.container}>
                 <Box sx={{ width: '100%' }} />
-                <h1 className={styles.title}>Skills</h1>
+                <h1 className={styles.title} id={props.id}>Skills</h1>
                 <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
                     <Grid item xs={12} md={12}>
                         <div className={styles.sub_title}>
