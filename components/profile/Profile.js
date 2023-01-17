@@ -100,7 +100,7 @@ const Profile = (props) => {
 }
 
 const Profile_Wrapper = styled('div')({
-    backgroundColor: '#F5F5F5'
+    backgroundColor: '#E0E0E0'
 })
 
 

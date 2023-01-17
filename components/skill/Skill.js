@@ -33,7 +33,7 @@ const Skill = (props) => {
         fontFamily: 'Montserrat',
         padding: theme.spacing(1),
         color: theme.palette.text.secondary,
-        borderRadius: '0px',
+        borderRadius: 'none',
         boxShadow: 'none',
     }));
 

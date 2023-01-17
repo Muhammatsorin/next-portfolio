@@ -1,4 +1,4 @@
-import React , { useState } from 'react'
+import React, { useState } from 'react'
 import styles from '../contact/Contact.module.css'
 import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
@@ -62,7 +62,7 @@ const Contact = (props) => {
                         </Grid>
                     </Grid>
                     <FormControl>
-                        <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} sx={{ marginTop: '30px' }}>
+                        <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} sx={{ marginTop: '30px' }} className={styles.form_item}>
                             <Grid item xs={12} md={6}>
                                 <Item className={styles.item_form}>
                                     <p>Your Name :</p>

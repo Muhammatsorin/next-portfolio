@@ -109,7 +109,7 @@ const Exp = (props) => {
 }
 
 const Exp_wrapper = styled('div')({
-    backgroundColor: '#F5F5F5'
+    backgroundColor: '#E0E0E0'
 })
 
 export default Exp
