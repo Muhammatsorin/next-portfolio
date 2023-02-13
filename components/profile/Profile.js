@@ -16,7 +16,7 @@ const Profile = (props) => {
         fontFamily: 'Montserrat',
         padding: theme.spacing(1),
         textAlign: 'center',
-        color: theme.palette.text.secondary,
+        color: 'red',
         borderRadius: '0px',
         boxShadow: 'none',
     }));
