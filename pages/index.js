@@ -169,7 +169,7 @@ const Container = styled.div`
             width: 100%;
             height: 40vh;
             position: absolute;
-            top: 80px;
+            top: 100px;
             left: -100%;
             opacity: 1;
             transition: all 0.5s ease;
