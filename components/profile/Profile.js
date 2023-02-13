@@ -12,7 +12,6 @@ const Profile = (props) => {
         backgroundColor: '#E0E0E0',
         fontFamily: 'Montserrat',
         padding: theme.spacing(1),
-        textAlign: 'center',
         color: theme.palette.text.secondary,
         borderRadius: '0px',
         boxShadow: 'none',
