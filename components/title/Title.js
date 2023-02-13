@@ -32,6 +32,7 @@ const Title = (props) => {
                                             width={500}
                                             height={400}
                                             priority
+                                            alt='me.jpg'
                                         />
                                     </div>
                                 </Grid>

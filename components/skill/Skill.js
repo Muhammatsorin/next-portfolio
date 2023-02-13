@@ -58,6 +58,7 @@ const Skill = (props) => {
                                             width={80}
                                             height={70}
                                             priority
+                                            alt="js"
                                         />
                                     </div>
                                 </Grid>
@@ -82,6 +83,7 @@ const Skill = (props) => {
                                             width={80}
                                             height={70}
                                             priority
+                                            alt="html"
                                         />
                                     </div>
                                 </Grid>
@@ -106,6 +108,7 @@ const Skill = (props) => {
                                             width={80}
                                             height={70}
                                             priority
+                                            alt="css"
                                         />
                                     </div>
                                 </Grid>
@@ -137,6 +140,7 @@ const Skill = (props) => {
                                             width={80}
                                             height={70}
                                             priority
+                                            alt="react"
                                         />
                                     </div>
                                 </Grid>
@@ -161,6 +165,7 @@ const Skill = (props) => {
                                             width={80}
                                             height={50}
                                             priority
+                                            alt="next"
                                         />
                                     </div>
                                 </Grid>
