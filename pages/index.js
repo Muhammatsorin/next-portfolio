@@ -173,7 +173,7 @@ const Container = styled.div`
             left: -100%;
             opacity: 1;
             transition: all 0.5s ease;
-            background-color: red;
+            background-color: white;
 
 
         }
