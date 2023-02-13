@@ -81,7 +81,7 @@
     width: 50%;
 }
 
-.grid2_item1 h1 h3 {
+.grid2_item1 h1 {
     font-size: 1.5rem;
     margin: 0;
     padding: 0;
@@ -89,6 +89,7 @@
 
 .grid2_item2 {
     width: 50%;
+    text-align: center;
 }
 
 .university p {
@@ -100,11 +101,11 @@
     .grid1 {
         display: flex;
         flex-direction: column;
-        justify-content: center;
     }
 
     .grid1_item1 {
         width: 100%;
+        text-align: center;
     }
     
     .grid1_item2 {
@@ -114,14 +115,17 @@
     .grid2 {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
     }
 
     .grid2_item1 {
         width: 100%;
+        text-align: center;
     }
-    
+
     .grid2_item2 {
         width: 100%;
+        text-align: center;
     }
+
 }
