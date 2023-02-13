@@ -30,7 +30,7 @@ const Exp = (props) => {
                             <Grid item xs={12}>
                                 <div className={styles.item_wrap}>
                                     <Item className={styles.item_icon}>
-                                        <ExplicitIcon sx={{ fontSize: 40 }}/>
+                                        <ExplicitIcon sx={{ fontSize: 40 }} />
                                     </Item>
                                     <Item className={styles.item_des}>
                                         <div>
@@ -39,8 +39,10 @@ const Exp = (props) => {
                                         </div>
                                         <div className={styles.nature_of_work}>
                                             <p className={styles.p1}>Full - Stack Developer</p>
-                                            <p>Develop a website about collecting information of products that personnel bring to use within the university. 
-                                                It was developed using React Js + Express Js + mySQL. (30% progress)</p>
+                                            <p>Develop a web application about storing product data
+                                                that personnel within the university use to withdraw.
+                                                Developed with React js, Express Js and MySQL. ( 30%
+                                                progress </p>
                                         </div>
                                     </Item>
                                 </div>
@@ -49,7 +51,7 @@ const Exp = (props) => {
                             <Grid item xs={12}>
                                 <div className={styles.item_wrap}>
                                     <Item className={styles.item_icon}>
-                                        <ExplicitIcon sx={{ fontSize: 40 }}/>
+                                        <ExplicitIcon sx={{ fontSize: 40 }} />
                                     </Item>
                                     <Item className={styles.item_des}>
                                         <div>
@@ -58,8 +60,10 @@ const Exp = (props) => {
                                         </div>
                                         <div className={styles.nature_of_work}>
                                             <p className={styles.p1}>Full - Stack Developer</p>
-                                            <p>Develop a website about collecting information of products that personnel bring to use within the university. 
-                                                It was developed using React Js + Express Js + mySQL. (100% progress)</p>
+                                            <p>Developed a web application about storing product
+                                                data that personnel within the university used to
+                                                withdraw. Developed with React Js, Express Js and
+                                                MySQL. ( 100% progress )</p>
                                         </div>
                                     </Item>
                                 </div>
@@ -68,7 +72,7 @@ const Exp = (props) => {
                             <Grid item xs={12}>
                                 <div className={styles.item_wrap}>
                                     <Item className={styles.item_icon}>
-                                        <ExplicitIcon sx={{ fontSize: 40 }}/>
+                                        <ExplicitIcon sx={{ fontSize: 40 }} />
                                     </Item>
                                     <Item className={styles.item_des}>
                                         <div>
@@ -77,7 +81,9 @@ const Exp = (props) => {
                                         </div>
                                         <div className={styles.nature_of_work}>
                                             <p className={styles.p1}>Full - Stack Developer</p>
-                                            <p>Develop a website about selling products (Ecommerce) with development using Angular + Friebase</p>
+                                            <p>Develop a website about selling products
+                                                ( Ecommerce ). Developed with Angular and Firebase
+                                            </p>
                                         </div>
                                     </Item>
                                 </div>
@@ -86,7 +92,7 @@ const Exp = (props) => {
                             <Grid item xs={12}>
                                 <div className={styles.item_wrap}>
                                     <Item className={styles.item_icon}>
-                                        <ExplicitIcon sx={{ fontSize: 40 }}/>
+                                        <ExplicitIcon sx={{ fontSize: 40 }} />
                                     </Item>
                                     <Item className={styles.item_des}>
                                         <div>
