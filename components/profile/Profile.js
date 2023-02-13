@@ -3,7 +3,7 @@ import Container from '@mui/material/Container';
 import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
-import styles from './Profile.module.css'
+import styles from '../../styles/Profile.module.css'
 import Button from '@mui/material/Button';
 
 const Profile = (props) => {

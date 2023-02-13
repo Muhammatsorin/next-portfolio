@@ -106,6 +106,7 @@
     .grid1_item1 {
         width: 100%;
         text-align: center;
+        color: red;
     }
     
     .grid1_item2 {
@@ -127,5 +128,4 @@
         width: 100%;
         text-align: center;
     }
-
 }
