@@ -16,10 +16,15 @@
     background-color: #E0E0E0;
 }
 
-.item1 {
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.1em;
+.grid1_item1 {
+    color: red;
+    width: 50%;
+}
+
+.grid1_item2 {
+    color: red;
+    width: 50%;
+    text-align: start;
 }
 
 .item1::before {

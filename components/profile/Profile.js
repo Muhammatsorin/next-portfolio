@@ -12,7 +12,7 @@ import Stack from '@mui/material/Stack';
 const Profile = (props) => {
 
     const Item = styled(Paper)(({ theme }) => ({
-        backgroundColor: 'red',
+        backgroundColor: '#E0E0E0',
         fontFamily: 'Montserrat',
         padding: theme.spacing(1),
         textAlign: 'center',
@@ -26,12 +26,12 @@ const Profile = (props) => {
             <Profile_Wrapper>
                 <Container maxWidth="lg" className={styles.container}>
                     <h1 className={styles.title} id={props.id}>profile</h1>
-                    <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} className={styles.row1}>
-                        <Grid item xs={12} md={6} className={styles.grid1}>
-                            <Item className={styles.item1}>
+                    <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
+                        <Grid item xs={12} className={styles.grid1}>
+                            <Item className={styles.grid1_item1}>
                                 <h1>My Profile</h1>
                             </Item>
-                            <Item className={styles.item2}>
+                            <Item className={styles.grid1_item2}>
                                 <div className={styles.details}>
                                     <p className={styles.pt}>Name :</p>
                                     <p className={styles.pd}>Muhammatsorin Hawae</p>
@@ -50,7 +50,6 @@ const Profile = (props) => {
                                 </div>
                             </Item>
                         </Grid>
-                        
                     </Grid>
                 </Container>
             </Profile_Wrapper>
