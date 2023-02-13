@@ -1,13 +1,10 @@
 import React from "react"
-import CssBaseline from '@mui/material/CssBaseline';
-import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import styles from './Profile.module.css'
 import Button from '@mui/material/Button';
-import Stack from '@mui/material/Stack';
 
 const Profile = (props) => {
 
@@ -54,11 +51,9 @@ const Profile = (props) => {
                                     <p>I have gone through many stages in my career and each has informed my current work ethic and philosophy.
                                         I excel in many page design roles in a variety of needs and believe my number one asset is the ability to adapt to any
                                         challenges thrown away.</p>
-                                    <Stack direction="row" spacing={0}>
-                                        <a href="Modern Professional Resume.pdf" download="Modern Professional Resume.pdf">
-                                            <Button variant="contained" className={styles.btn}>Download CV</Button>
-                                        </a>
-                                    </Stack>
+                                    <a href="Modern Professional Resume.pdf" download="Modern Professional Resume.pdf">
+                                        <Button variant="contained" className={styles.btn}>Download CV</Button>
+                                    </a>
                                 </div>
                             </Item>
                         </Grid>
