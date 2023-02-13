@@ -12,6 +12,7 @@ import Stack from '@mui/material/Stack';
 const Profile = (props) => {
 
     const Item = styled(Paper)(({ theme }) => ({
+        backgroundColor: 'red',
         fontFamily: 'Montserrat',
         padding: theme.spacing(1),
         textAlign: 'center',
