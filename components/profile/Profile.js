@@ -24,6 +24,37 @@ const Profile = (props) => {
         <>
             <Profile_Wrapper>
                 <Container maxWidth="lg" className={styles.container}>
+                    <h1 className={styles.title} id={props.id}>profile</h1>
+                    <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} className={styles.row1}>
+                        <Grid item xs={12} md={6} className={styles.grid1}>
+                            <Item className={styles.item1}>
+                                <h1>My Profile</h1>
+                            </Item>
+                            <Item className={styles.item2}>
+                                <div className={styles.details}>
+                                    <p className={styles.pt}>Name :</p>
+                                    <p className={styles.pd}>Muhammatsorin Hawae</p>
+                                </div>
+                                <div className={styles.details}>
+                                    <p className={styles.pt}>Date of Birth :</p>
+                                    <p className={styles.pd}>December 13, 1997</p>
+                                </div>
+                                <div className={styles.details}>
+                                    <p className={styles.pt}>Email :</p>
+                                    <p className={styles.pd}>sorin.13122540@gmail.com</p>
+                                </div>
+                                <div className={styles.details}>
+                                    <p className={styles.pt}>Phone :</p>
+                                    <p className={styles.pd}>+669 8029 3887</p>
+                                </div>
+                            </Item>
+                        </Grid>
+                        
+                    </Grid>
+                </Container>
+            </Profile_Wrapper>
+            {/* <Profile_Wrapper>
+                <Container maxWidth="lg" className={styles.container}>
                     <Box sx={{ width: '100%' }} />
                     <h1 className={styles.title} id={props.id}>profile</h1>
                     <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} className={styles.row1}>
@@ -94,7 +125,7 @@ const Profile = (props) => {
                     </Grid>
                     <Box />
                 </Container>
-            </Profile_Wrapper>
+            </Profile_Wrapper> */}
         </>
     )
 }
