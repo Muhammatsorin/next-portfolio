@@ -10,6 +10,14 @@ import { GrInstagram, GrFacebook } from "react-icons/gr";
 
 const Title = (props) => {
 
+    const openFacebook = () => {
+        window.open('https://web.facebook.com/sorin.hawae/')
+    }
+
+    const openIG = () => {
+        window.open('https://www.instagram.com/soriin.z/')
+    }
+
     return (
         <>
             <TitleWrap id={props.id}>
@@ -40,10 +48,10 @@ const Title = (props) => {
                                     </div>
                                     <Divider />
                                     <div className='social-icons'>
-                                        <div className='facebook'>
+                                        <div className='facebook' onClick={openFacebook}>
                                             <GrFacebook />
                                         </div>
-                                        <div className='instragram'>
+                                        <div className='instragram' onClick={openIG}>
                                             <GrInstagram />
                                         </div>
                                     </div>

@@ -58,7 +58,9 @@ const Profile = (props) => {
                                     I excel in many page design roles in a variety of needs and believe my number one asset is the ability to adapt to any
                                     challenges thrown away.</p>
                                 <Stack direction="row" spacing={0}>
-                                    <Button variant="contained" className={styles.btn}>Download CV</Button>
+                                    <a href="Modern Professional Resume.pdf" download="Modern Professional Resume.pdf">
+                                        <Button variant="contained" className={styles.btn}>Download CV</Button>
+                                    </a>
                                 </Stack>
                             </Item>
                         </Grid>

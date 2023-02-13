@@ -167,12 +167,14 @@ const Container = styled.div`
             display: flex;
             flex-direction: column;
             width: 100%;
-            height: 30vh;
+            height: 40vh;
             position: absolute;
-            top: 150px;
+            top: 80px;
             left: -100%;
             opacity: 1;
             transition: all 0.5s ease;
+            background-color: white;
+
         }
 
         .nav-menu.active {
@@ -181,9 +183,11 @@ const Container = styled.div`
             transition: all 0.5s ease;
             z-index: 1;
             margin: 0;
+
         }
 
         .nav-list {
+
             ul {
                 padding: 0px 0px 0px 0px;
                 margin: 0;
