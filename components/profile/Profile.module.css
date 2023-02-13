@@ -15,7 +15,7 @@
     display: flex;
     align-items: center;
     letter-spacing: 0.1em;
-    background-color: #E0E0E0;
+    background-color: red;
 }
 
 .item1::before {
