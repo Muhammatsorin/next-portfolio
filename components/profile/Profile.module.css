@@ -14,43 +14,23 @@
 .grid1 {
     display: flex;
     background-color: #E0E0E0;
+    align-items: flex-start;
+    margin-top: 40px;
 }
 
 .grid1_item1 {
     width: 50%;
 }
 
+.grid1_item1 h1 {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
 .grid1_item2 {
     width: 50%;
     text-align: start;
-}
-
-.item1::before {
-    content: '';
-    height: 3px;
-    background-color: silver;
-    flex-grow: 1;
-}
-
-.item1::after {
-    content: '';
-    height: 3px;
-    background-color: silver;
-    flex-grow: 1;
-}
-
-.item1 h1 {
-    font-size: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.grid2 {
-    margin-bottom: 20px;
-
-}
-
-.item2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,11 +49,15 @@
     margin-left: 10px;
 }
 
-.item3 {
+.download_cv {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #E0E0E0;
+    margin-bottom: 30px;
+}
+
+.download_cv p {
+    text-align: center;
 }
 
 .btn {
@@ -86,52 +70,60 @@
     color: white;
 }
 
-.my_educate {
+.grid2 {
+    display: flex;
     background-color: #E0E0E0;
+    align-items: flex-start;
+    margin-top: 40px;
 }
 
-.education {
-    display: flex;
-    flex-direction: column;
-    text-align: start;
-    
+.grid2_item1 {
+    width: 50%;
 }
 
-.university {
-    display: flex;
-    align-items: center;
+.grid2_item1 h1 h3 {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.grid2_item2 {
+    width: 50%;
 }
 
 .university p {
-    margin: 0;
-    padding-left: 20px;
     font-weight: 900;
 }
 
-.university h3 {
-    margin: 0;
-}
-
-.major p {
-    margin: 0;
-    margin-bottom: 20px;
-}
-
 @media (max-width: 1200px) {
-    .education {
-        font-size: 12px;
-    }
-
-    .university {
+    
+    .grid1 {
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
-        text-align: center;
+        align-items: center;
     }
 
-    .major {
-        text-align: center;
-        margin-bottom: 10px;
+    .grid1_item1 {
+        width: 100%;
+    }
+    
+    .grid1_item2 {
+        width: 100%;
+    }
+
+    .grid2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .grid2_item1 {
+        width: 100%;
+    }
+    
+    .grid2_item2 {
+        width: 100%;
     }
 }
