@@ -29,8 +29,38 @@ const Contact = (props) => {
 
     return (
         <>
-            <CssBaseline />
             <Container maxWidth="lg" className={styles.container}>
+                <h1 className={styles.title} id={props.id}>Contact Me</h1>
+                <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
+                    <Grid item xs={12} md={6} sx={{ marginTop: '20px' }}>
+                        <Item>
+                            <div className={styles.item_wrap}>
+                                <div className={styles.icon}>
+                                    <PhoneAndroidIcon sx={{ fontSize: 70 }} />
+                                </div>
+                                <div className={styles.des}>
+                                    <h3>Contact Number</h3>
+                                    <p>+669 8029 3887</p>
+                                </div>
+                            </div>
+                        </Item>
+                    </Grid>
+                    <Grid item xs={12} md={6} sx={{ marginTop: '20px' }}>
+                        <Item>
+                            <div className={styles.item_wrap}>
+                                <div className={styles.icon}>
+                                    <EmailIcon sx={{ fontSize: 70 }} />
+                                </div>
+                                <div className={styles.des}>
+                                    <h3>Email Address</h3>
+                                    <p>sorin.13122540@gmail.com</p>
+                                </div>
+                            </div>
+                        </Item>
+                    </Grid>
+                </Grid>
+            </Container>
+            {/* <Container maxWidth="lg" className={styles.container}>
                 <h1 className={styles.title} id={props.id}>Contact Me</h1>
                 <Box sx={{ width: '100%' }}>
                     <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
@@ -117,7 +147,7 @@ const Contact = (props) => {
                         <Button variant="contained" className={styles.btn}>Submit</Button>
                     </Stack>
                 </Box>
-            </Container>
+            </Container> */}
         </>
     )
 }
