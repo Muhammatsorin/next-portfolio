@@ -167,13 +167,14 @@ const Container = styled.div`
             display: flex;
             flex-direction: column;
             width: 100%;
-            height: 40vh;
+            height: 60vh;
             position: absolute;
             top: 100px;
             left: -100%;
             opacity: 1;
             transition: all 0.5s ease;
-            background-color: white;
+            background-color: red;
+
 
         }
 
