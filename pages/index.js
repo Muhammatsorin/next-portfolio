@@ -41,7 +41,7 @@ const Home = () => {
             <Container>
                 <nav className={navbar ? 'navbar active' : 'navbar'}>
                     <div className='nav-title'>
-                      <Link to='/'>
+                      <Link to={MenuItems[0].id} smooth={true} offset={-100} duration={500}>
                         <h1>Portfolio</h1>
                       </Link>  
                     </div>
